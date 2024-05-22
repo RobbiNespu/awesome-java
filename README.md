@@ -149,7 +149,7 @@ _Libraries to assist with parsing command line arguments._
 _Libraries that provide TUI frameworks, or building blocks related functions._
 
 - [Jansi](https://github.com/fusesource/jansi) - ANSI escape codes to format console output.
-- [Jexer](https://gitlab.com/klamonte/jexer) - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
+- [Jexer](https://gitlab.com/AutumnMeowMeow/jexer) - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
 - [Text-IO](https://github.com/beryx/text-io) - Aids the creation of full console-based applications.
 - [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
 
@@ -244,7 +244,7 @@ _Libraries that help with implementing optimization and satisfiability problems.
 - [Choco](https://choco-solver.org) - Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques.
 - [JaCoP](https://github.com/radsz/jacop) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models. (AGPL-3.0)
 - [OptaPlanner](https://www.optaplanner.org) - Business planning and resource scheduling optimization solver.
-- [Timefold](https://github.com/TimefoldAI/timefold-solver) - Flexible solver with Spring/Quarkus support and quickstarts for the Vehicle Routing Problem, Maintenance Scheduling, Employee Shift Scheduling and much more.
+- [Timefold](https://timefold.ai/docs) - Flexible solver with Spring/Quarkus support and quickstarts for the Vehicle Routing Problem, Maintenance Scheduling, Employee Shift Scheduling and much more.
 
 ### CSV
 
@@ -649,6 +649,7 @@ _Tools that help send messages between clients to ensure protocol independency._
 - [Apache Pulsar](https://pulsar.apache.org) - Distributed pub/sub-messaging system.
 - [Apache RocketMQ](https://rocketmq.apache.org) - Fast, reliable, and scalable distributed messaging platform.
 - [Apache Qpid](https://qpid.apache.org) - Apache Qpid makes messaging tools that speak AMQP and support many languages and platforms.
+- [AutoMQ](https://github.com/AutoMQ/automq-for-kafka) - AutoMQ is a cloud-native, serverless reinvented Kafka that is easily scalable, manage-less and cost-effective.
 - [Deezpatch](https://github.com/joel-jeremy/deezpatch) - Simple, lightweight, and performant dispatch library for decoupling messages (requests and events) and message handlers.
 - [EventBus](https://github.com/greenrobot/EventBus) - Simple publish/subscribe event bus.
 - [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
@@ -686,6 +687,8 @@ _Everything else._
 - [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 - [FF4J](https://github.com/ff4j/ff4j) - Feature Flags for Java.
 - [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) - No-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes. (No explicit license)
+- [IP2Location.io Java SDK](https://github.com/ip2location/ip2location-io-java) - Wrapper for the IP2Location.io Geolocation API and the IP2WHOIS domain WHOIS API.
+- [ISBN core](https://github.com/ladutsko/isbn-core) - A small library that contains a representation object of ISBN-10 and ISBN-13 and tools to parse, validate and format one.
 - [J2ObjC](https://github.com/google/j2objc) - Java-to-Objective-C translator for porting Android libraries to iOS.
 - [JBake](https://jbake.org) - Static website generator.
 - [JBot](https://github.com/rampatra/jbot) - Framework for building chatbots. (GPL-3.0-only)
@@ -820,7 +823,7 @@ _Tools to help with PDF files._
 
 - [Apache FOP](https://xmlgraphics.apache.org/fop/) - Creates PDFs from XSL-FO.
 - [Apache PDFBox](https://pdfbox.apache.org) - Toolbox for creating and manipulating PDFs.
-- [Dynamic Jasper](http://dynamicjasper.com) - Abstraction layer to JasperReports. (LGPL-3.0-only)
+- [Dynamic Jasper](https://intive-fdv.github.io/DynamicJasper/) - Abstraction layer to JasperReports. (LGPL-3.0-only)
 - [DynamicReports](https://github.com/dynamicreports/dynamicreports) - Simplifies JasperReports. (LGPL-3.0-only)
 - [Eclipse BIRT](https://www.eclipse.org/birt) - Report engine for creating PDF and other formats (DOCX, XLSX, HTML, etc) using Eclipse-based visual editor.
 - [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer. (LGPL-2.1-or-later)
@@ -1115,9 +1118,10 @@ _Other stuff related to testing._
 - [LogCaptor](https://github.com/Hakky54/log-captor) - Captures log entries for unit testing purposes.
 - [log-capture](https://github.com/dm-drogeriemarkt/log-capture) - Captures log entries and provides assertions for unit and integration testing.
 - [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports whether instances of a given class are immutable.
-- [raml-tester](https://github.com/nidi3/raml-tester) - Tests if a request/response matches a given RAML definition.
-- [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 - [pojo-tester](https://www.pojo.pl) - Automatically performs tests on basic POJO methods. (LGPL-3.0-only)
+- [raml-tester](https://github.com/nidi3/raml-tester) - Tests if a request/response matches a given RAML definition.
+- [Selfie](https://github.com/diffplug/selfie) - Snapshot testing (inline and on disk).
+- [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 
 #### Mocking
 
@@ -1150,6 +1154,7 @@ _Libraries which provide general utility functions._
 - [Java Diff Utils](https://java-diff-utils.github.io/java-diff-utils/) - Utilities for text or data comparison and patching.
 - [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - Library that helps with constructing difficult regular expressions.
 - [JGit](https://www.eclipse.org/jgit/) - Lightweight, pure Java library implementing the Git version control system.
+- [JKScope](https://github.com/evpl/jkscope) - Java scope functions inspired by Kotlin.
 - [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3-compatible object storage server.
 - [Protégé](https://protege.stanford.edu) - Provides an ontology editor and a framework to build knowledge-based systems.
 - [Semver4j](https://github.com/semver4j/semver4j) - Lightweight library that helps you handling semantic versioning with different modes.
@@ -1239,9 +1244,10 @@ _Books that made a big impact and are still worth reading._
 - [Core Java Volume I--Fundamentals](https://www.amazon.com/Core-Java-I-Fundamentals-10th/dp/0134177304)
 - [Core Java, Volume II--Advanced Features](https://www.amazon.com/Core-Java-II-Advanced-Features-10th/dp/0134177290)
 - [Effective Java (3rd Edition)](https://www.amazon.com/Effective-Java-3rd-Joshua-Bloch/dp/0134685997)
-- [Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
-- [Thinking in Java](https://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 - [Head First Java (3rd Edition)](https://www.oreilly.com/library/view/head-first-java/9781492091646/)
+- [Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+- [The Well-Grounded Java Developer (2nd Edition)](https://www.manning.com/books/the-well-grounded-java-developer-second-edition)
+- [Thinking in Java](https://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
 ### Podcasts and Screencasts
 
